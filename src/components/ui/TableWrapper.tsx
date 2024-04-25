@@ -8,7 +8,7 @@ interface TableWrapperProps {
 
 const TableWrapper = ({ children }: TableWrapperProps) => {
   return (
-    <div className="border-2 border-gray-200 rounded-2xl bg-white text-gray-500 w-[800px]">
+    <div className="border-2 border-gray-200 rounded-2xl bg-white text-gray-500 md:w-[800px] w-[600px] mb-4">
       {/* table section */}
       {children}
 
@@ -31,13 +31,13 @@ const TableWrapper = ({ children }: TableWrapperProps) => {
           Show Full List
         </Button>
         <Button className="text-sm border-gray-200 border-2 px-3 py-2 rounded-md hover:bg-gray-50 transition-all delay-75">
-          Show Full List
+          Show Query
         </Button>
         <Button className="text-sm border-gray-200 border-2 px-3 py-2 rounded-md hover:bg-gray-50 transition-all delay-75">
-          Show Full List
+          Show Chart
         </Button>
         <Button className="text-sm border-gray-200 border-2 px-3 py-2 rounded-md hover:bg-gray-50 transition-all delay-75">
-          Show Full List
+          Pin to Dashboard
         </Button>
       </div>
     </div>

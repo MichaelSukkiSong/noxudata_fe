@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const HeaderSection = () => {
   return (
-    <div className="flex flex-col w-[850px]">
+    <div className="flex flex-col md:w-[850px] w-[500px]">
       <div className="flex gap-3 items-center">
         <div>
           <Image

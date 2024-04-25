@@ -11,7 +11,7 @@ const MiddleSection = () => {
   return (
     <div>
       {/* orange buttons */}
-      <div className="mb-5 flex">
+      <div className="md:mb-5 flex mb-2 justify-center md:justify-start mt-4">
         <Button className="flex items-center text-orange-500 px-3 py-1 border-t-2 border-l-2 border-b-2 border-gray-200 font-semibold rounded-l-md bg-white gap-2 hover:bg-orange-50 transition-all delay-75">
           <div className="flex justify-center items-center">
             <CircleAlert size={20} />
@@ -27,7 +27,7 @@ const MiddleSection = () => {
       </div>
 
       {/* instructions section */}
-      <div className="flex mb-5 justify-start items-center gap-4">
+      <div className="flex mb-5 md:justify-start justify-center items-center gap-4">
         <div>
           <Image
             src="/noxudata_logo.jpeg"

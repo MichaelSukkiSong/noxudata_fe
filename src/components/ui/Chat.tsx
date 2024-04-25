@@ -2,7 +2,7 @@ import { MessageCircle, ChevronsUpDown, Send } from "lucide-react";
 
 const Chat = () => {
   return (
-    <div className="flex gap-4 cursor-pointer">
+    <div className="flex md:gap-4 gap-2 cursor-pointer">
       <div className=" w-[760px] flex justify-between items-center border border-gray-300 rounded-md ">
         <div className="border-r-2 h-full  flex justify-center items-center px-3 gap-2">
           <div>
@@ -25,7 +25,7 @@ const Chat = () => {
           </div>
         </div>
       </div>
-      <div className="w-[90px] border border-red-500 rounded-md px-3 py-2 text-red-500 text-sm flex justify-center items-center hover:bg-red-50 transition-all delay-75">
+      <div className="md:w-[90px] w-[120px] border border-red-500 rounded-md px-3 py-2 text-red-500 text-sm flex justify-center items-center hover:bg-red-50 transition-all delay-75">
         End Chat
       </div>
     </div>
