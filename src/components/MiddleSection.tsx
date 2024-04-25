@@ -9,7 +9,7 @@ import data from "@/data";
 
 const MiddleSection = () => {
   return (
-    <div>
+    <div className="h-[452px] ">
       {/* orange buttons */}
       <div className="md:mb-5 flex mb-2 justify-center md:justify-start mt-4">
         <Button className="flex items-center text-orange-500 px-3 py-1 border-t-2 border-l-2 border-b-2 border-gray-200 font-semibold rounded-l-md bg-white gap-2 hover:bg-orange-50 transition-all delay-75">
@@ -27,7 +27,7 @@ const MiddleSection = () => {
       </div>
 
       {/* instructions section */}
-      <div className="flex mb-5 md:justify-start justify-center items-center gap-4 text-black">
+      <div className="flex mb-2 md:justify-start justify-center items-center gap-4 text-black">
         <div>
           <Image
             src="/logo mark.svg"

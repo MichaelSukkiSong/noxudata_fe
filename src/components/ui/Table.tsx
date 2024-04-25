@@ -6,13 +6,13 @@ const Table = ({ data }: Tableprops) => {
   const renderedRows = data.map((row: RowData) => {
     return (
       <tr className="border-b" key={uniqid()}>
-        <td className="p-3 font-normal text-black">{row.ID}</td>
-        <td className="p-3 font-normal text-black">{row.Name}</td>
-        <td className="p-3 font-normal text-black">{row.Industry}</td>
-        <td className="p-3 font-normal text-black">{row.City}</td>
-        <td className="p-3 font-normal text-black">{row.State}</td>
-        <td className="p-3 font-normal text-black">{row.Segment}</td>
-        <td className="p-3 font-normal text-black">{row.OwnerID}</td>
+        <td className="p-1.5 font-normal text-black">{row.ID}</td>
+        <td className="p-1.5 font-normal text-black">{row.Name}</td>
+        <td className="p-1.5 font-normal text-black">{row.Industry}</td>
+        <td className="p-1.5 font-normal text-black">{row.City}</td>
+        <td className="p-1.5 font-normal text-black">{row.State}</td>
+        <td className="p-1.5 font-normal text-black">{row.Segment}</td>
+        <td className="p-1.5 font-normal text-black">{row.OwnerID}</td>
       </tr>
     );
   });

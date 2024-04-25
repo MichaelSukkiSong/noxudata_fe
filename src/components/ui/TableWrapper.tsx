@@ -8,7 +8,7 @@ interface TableWrapperProps {
 
 const TableWrapper = ({ children }: TableWrapperProps) => {
   return (
-    <div className="border-2 border-gray-200 rounded-2xl bg-white text-gray-500 md:w-[800px] w-[600px] mb-4">
+    <div className="border-2 border-gray-200 rounded-2xl bg-white text-gray-500 md:w-[744px] w-[600px] mb-4">
       {/* table section */}
       {children}
 
