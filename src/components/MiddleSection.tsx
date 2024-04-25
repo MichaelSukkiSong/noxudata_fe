@@ -30,7 +30,7 @@ const MiddleSection = () => {
       <div className="flex mb-5 md:justify-start justify-center items-center gap-4 text-black">
         <div>
           <Image
-            src="/noxudata_logo.jpeg"
+            src="/logo mark.svg"
             width={40}
             height={40}
             alt="Picture of a person"
