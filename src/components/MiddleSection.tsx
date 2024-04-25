@@ -9,7 +9,7 @@ import data from "@/data";
 
 const MiddleSection = () => {
   return (
-    <div className="h-[452px] bg-orange-100">
+    <div className="h-[452px] ">
       {/* orange buttons */}
       <div className="md:mb-5 flex mb-2 justify-center md:justify-start ">
         <Button className="flex items-center text-orange-500 px-3 py-1 border-t-2 border-l-2 border-b-2 border-gray-200 font-semibold rounded-l-md bg-white gap-2 hover:bg-orange-50 transition-all delay-75">
