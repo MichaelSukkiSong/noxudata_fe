@@ -6,7 +6,7 @@ import FooterSection from "@/components/FooterSection";
 
 export default function Home() {
   return (
-    <main className="w-full min-h-screen flex flex-col justify-between bg-blue-50 overflow-hidden">
+    <main className="w-full min-h-screen flex flex-col justify-between bg-slate-100 overflow-hidden">
       {/* header section */}
       <div className="bg-white h-40 flex items-center justify-center">
         <HeaderSection />
