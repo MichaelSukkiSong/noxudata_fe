@@ -27,7 +27,7 @@ const MiddleSection = () => {
       </div>
 
       {/* instructions section */}
-      <div className="flex mb-5 md:justify-start justify-center items-center gap-4">
+      <div className="flex mb-5 md:justify-start justify-center items-center gap-4 text-black">
         <div>
           <Image
             src="/noxudata_logo.jpeg"
