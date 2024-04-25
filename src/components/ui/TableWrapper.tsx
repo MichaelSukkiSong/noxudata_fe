@@ -10,11 +10,11 @@ const TableWrapper = ({ children }: TableWrapperProps) => {
   return (
     <div className="border-2 border-gray-200 rounded-2xl bg-white text-gray-500 md:w-[744px] w-[600px] mb-4">
       {/* table section */}
-      {children}
+      <div className="flex justify-center items-center">{children}</div>
 
       {/* instructions section */}
-      <div className="flex gap-2 text-gray-500 font-semibold justify-between items-center bg-gray-50 p-2">
-        <div className="flex gap-2 ">
+      <div className="flex gap-2 text-gray-500 font-semibold justify-between items-center bg-slate-50 p-2 border-b">
+        <div className="flex gap-2">
           <div className=" flex justify-center items-center">
             <CircleAlert size={20} />
           </div>
