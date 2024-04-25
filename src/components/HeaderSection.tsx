@@ -6,7 +6,7 @@ const HeaderSection = () => {
       <div className="flex gap-3 items-center text-black">
         <div>
           <Image
-            src="/profile_picture.jpeg"
+            src="/1b25ee1372c134a5a04c9f4e466a960d.jpeg"
             width={40}
             height={40}
             alt="Picture of a person"
